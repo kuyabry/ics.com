@@ -1,0 +1,108 @@
+* {
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: "Poppins sans-serif;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #232428;
+
+}
+
+.site {
+
+position: relative;
+background-color: #00FFFF;
+height: 420px;
+width: 380px;
+border-radius: 8px;
+color: #00FFFF;
+}
+
+
+.site form {
+
+position: absolute;
+inset: 4px;
+background: #222;
+padding: 50px 40px;
+border-radius: 8px;
+z-index: 2;
+display: flex;
+flex-direction: column;
+
+}
+
+.site form h3 {
+
+color: #00FFFF;
+font-weight: bold;
+text-align: center;
+letter-spacing: 0.1em;
+    
+}
+    
+.site form .input-box {
+
+position: relative;
+width: 300px;
+margin-top: 35px;
+}
+    
+.site form .input-box input{
+
+position: relative;
+width: 100%;
+padding: 20px 10px 10px;
+background: #222;
+box-shadow: none;
+color: #00FFFF;
+font-size-adjust: 1em;
+letter-spacing: 0.5em;
+}
+
+.site .remem-forgotPass {
+
+display: flex;
+justify-content: space-between;
+padding: 20px 0px 20px;
+color: #00FFFF;
+}
+
+.site form .remem-forgotPass a {
+    
+color: #00FFFF;
+}
+
+.site .btn button {
+
+width: 300px;
+height: 30px;
+border-radius: 15px;
+font-weight: bold;
+background-color: aqua;
+
+}
+
+
+.site form .signup {
+
+display: flex;
+justify-content: center;
+padding: 20px 0px 20px;
+color: aqua;
+
+}
+
+site signup a {
+
+color: #00FFFF;
+
+}
+
+    
